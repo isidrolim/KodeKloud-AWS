@@ -1,5 +1,0 @@
-cron_package: cronie
-cron_service: crond
-cron_user: root
-cron_minute: "*/5"
-cron_command: "echo hello > /tmp/cron_text"
