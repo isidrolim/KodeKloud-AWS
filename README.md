@@ -1,62 +1,54 @@
-# KodeKloud Projects
+# KodeKloud AWS Learning Journey
 
-This repository contains my hands-on practice labs from **KodeKloud**, focused on:
+This repository documents my hands-on AWS learning journey through the KodeKloud Cloud (AWS) challenges, from Level 1 to Level 4.
 
-- Linux administration
-- Git workflows
-- Ansible automation
-- DevOps fundamentals
-
-All labs are documented with:
-- Task descriptions
-- Commands used
-- Explanations (WHY)
-- Verification steps
-
----
-
-## Linux Level 2 – Overview
-
-All **Linux Level 2** tasks are solved using **Ansible**.
-
-Each KodeKloud question is implemented as a **self-contained directory**, containing:
-- The Ansible playbook
-- Inventory for the task
-- Task-specific variables (if needed)
-- Documentation
-- Verification steps
-
-This structure mirrors how KodeKloud presents problems and prioritizes **clarity and learning**
-over premature optimization.
-
----
+The purpose of this repository is to serve as a practical learning journal where I record the steps, commands, configurations, and validation methods used to complete each AWS task.
 
 ## Repository Structure
 
 ```text
-linux_level-2/
-├── q01_create_cron_job/ - DONE
-├── q02_linux_banner/
-├── q03_collaborative_directories/
-├── q04_string_substitute/
-├── q05_ssh_authentication/
-├── q06_find_command/
-├── q07_install_package/
-├── q08_install_ansible/
-├── q09_configure_local_yum_repos/
-├── q10_linux_services/
-├── q11_configure_sudo/
-├── q12_dns_troubleshooting/
-├── q13_linux_firewalld_setup/
-├── q14_postfix_mail_server/
-├── q15_postfix_troubleshooting/
-├── q16_install_configure_haproxy/
-├── q17_haproxy_troubleshooting/
-├── q18_mariadb_troubleshooting/
-├── q19_linux_bash_scripts/
-├── q20_add_response_headers_apache/
-├── q21_apache_troubleshooting/
-├── q22_linux_gpg_encryption/
-├── q23_linux_logrotate/
-├── q24_application_security/
-└── README.md
+KodeKloud-AWS/
+├── Level-1/
+├── Level-2/
+├── Level-3/
+└── Level-4/
+```
+
+## What Each Challenge Includes
+
+- Task requirements
+- Simple step-by-step implementation
+- AWS Console or AWS CLI instructions
+- Verification steps
+- Important lessons learned
+
+## AWS Topics Covered
+
+- Amazon EC2
+- IAM users, groups, roles, and policies
+- Amazon S3
+- Amazon EBS volumes and snapshots
+- Amazon VPC networking
+- Elastic IP addresses
+- Amazon RDS
+- AWS CLI
+- Cloud security and resource management
+
+## Purpose
+
+This repository demonstrates my ability to:
+
+- Work with core AWS services
+- Manage AWS resources through the Console and CLI
+- Apply cloud security best practices
+- Verify configurations before considering a task complete
+- Troubleshoot technical issues systematically
+- Document technical work clearly and consistently
+
+## Goal
+
+My goal is to build a strong foundation in AWS administration, cloud operations, and DevOps through practical, hands-on challenges.
+
+This repository also serves as evidence of my continuous learning, technical documentation skills, and ability to apply AWS concepts in real-world scenarios.
+
+> This is an ongoing learning repository and will be updated as I progress through each level.
